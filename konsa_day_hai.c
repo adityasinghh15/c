@@ -21,6 +21,8 @@ int main() {
 	//not using if else 
 	
     const char *days[] = {"Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+	month -= 12;
+  	year += 1;
     printf("The day on %d/%d/%d is %s!", day,month,year, days[h]);
     
     return 0;
